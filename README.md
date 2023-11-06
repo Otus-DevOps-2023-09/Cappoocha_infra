@@ -7,7 +7,7 @@ testapp_IP = 158.160.46.225
 testapp_port = 9292
 
 Additional task: Startup script CLI
-
+```
 yc compute instance create `
 --name reddit-app `
 --zone ru-central1-a `
@@ -19,7 +19,7 @@ yc compute instance create `
 --create-boot-disk image-folder-id=standard-images,image-family=ubuntu-1604-lts,size=8 `
 --network-interface subnet-name=default-ru-central1-a,nat-ip-version=ipv4 `
 --metadata-from-file user-data=startup-metadata.yaml
-
+```
 --------------------------------------------------------------------------------------------
 
 HW #3
