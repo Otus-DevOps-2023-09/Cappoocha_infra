@@ -1,0 +1,6 @@
+{
+    "FOLDER_ID": "YOUR FOLDER ID",
+    "KEY": "PATH TO key.json",
+    "SOURCE_IMAGE_FAMILY": "SOURCE ID",
+    "SUBNET_ID": "YOUR SUBNET ID"
+}
